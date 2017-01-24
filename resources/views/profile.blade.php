@@ -52,6 +52,7 @@
     <div class="ordersTable">
         {!!$table!!}
         <!--ЫЫЫЫЫ-ыы-->
+        <!--SSSSS-->
     </div>
     <div class="check_order">
         <div class="check_form">
