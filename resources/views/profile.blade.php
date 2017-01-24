@@ -51,7 +51,7 @@
     ?>
     <div class="ordersTable">
         {!!$table!!}
-        <!--ЫЫЫЫЫ-->
+        <!--ЫЫЫЫЫ-ыы-->
     </div>
     <div class="check_order">
         <div class="check_form">
