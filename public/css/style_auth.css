@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Arsenal');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo a{
+    color:white;
+    text-decoration: none;
+}
+body,html{height:100%}
+.top{
+    min-height: 10%;
+    display: flex;
+    flex-direction: row;
+    background-color: #19191c;
+    flex-wrap: wrap;
+}
+.logo{
+    line-height: 30px;
+    flex-grow: 2;
+    padding-left: 2%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 150px;
+    margin: auto 0;
+    font-family: 'Bungee Shade', cursive;
+    color: white;
+    font-size: 30px;
+}
+.menu-item{
+    margin: auto;
+    border: 1px solid #19191c;
+    border-radius: 3px;
+    padding:10px;
+    transition: all 0.2s ease-in-out;
+}
+.menu-item a{
+    font-size: 17px;
+    font-family: 'Arsenal', sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu-item:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.menu:last-child{
+    flex-grow: 2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: url("../img/fone.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.table{
+    display: flex;
+    flex-direction: column;   
+    max-width: 300px;
+    min-height: 200px;
+    border: 2px solid rgb(25, 25, 28);
+    margin:auto;
+    padding: 2%;
+    background-color: rgb(25, 25, 28);
+    margin-top: 5%;
+    
+}
+.tab{
+    min-height:25px;
+    border: 2px solid #cecece;
+    border-radius: 3px;
+    
+}
+.table div{
+    margin-top: 5px;
+    color: white;
+    min-height: 30px;
+    font-size: 18px;
+    font-family: 'Russo One', sans-serif;
+    background-color: rgb(25, 25, 28);
+}
+.but{
+    border: 2px solid gray;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+    background-color: gray;
+    min-height: 40px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+.regs{
+    margin-bottom: 4%;
+    margin: auto;
+    padding: inherit;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.but:hover{
+    color: black;
+    background-color: #fff9fc;
+    border: 2px solid white;
+}
+.all{
+    margin: auto;
+}
+@media only screen and (max-device-width: 640px) {
+    .menu-item a{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-device-width: 750px) {
+    .menu-item a{
+        font-size: 23px;
+    }
+}
+@media only screen and (max-device-width: 1080px) {
+    .menu-item a{
+        font-size: 20px;
+    }
+}
