@@ -53,6 +53,7 @@
         {!!$table!!}
         <!--ЫЫЫЫЫ-ыы-->
         <!--SSSSS-->
+        <!--Витало пидор -->
     </div>
     <div class="check_order">
         <div class="check_form">
